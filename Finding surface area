@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int length,width,height,surfacearea;
+    scanf("%d %d %d",&length,&width,&height);
+    surfacearea=2*(width*length+width*height+length*height);
+    printf("%d", surfacearea);
+
+	return 0;
+}
